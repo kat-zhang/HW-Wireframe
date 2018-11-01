@@ -1,0 +1,117 @@
+* {
+    box-sizing: border-box;
+    text-align: center;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 10px;
+  }
+
+body {
+    background-color: #777;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+div { 
+    padding: 20px;
+}
+
+header {
+    background: white;
+    color:black;
+    margin-bottom: 10px;
+    height: 70px;
+    width: 960px;
+    padding: 20px;
+}
+ /* div {
+     background-color: white;
+     color:  black;
+ } */
+.nav {
+    background-color: white;
+    color: black;
+    height: 70px;
+    width: 960px;
+    margin-bottom: 10px;
+}
+
+section {
+    width: 495px;
+    color: black;
+    background-color: white;
+    padding: 10px, 10, 10, 10;
+    margin-bottom: 10px;
+    float: left;
+}
+.article {
+    color: white;
+    background-color: gray;
+    margin: 10px, 10, 10, 10;
+}
+.heads {
+    background-color: white;
+    color: black;
+    padding: 10px, 10, 10, 10;
+    margin-bottom: 10px;
+}
+.p { 
+    background-color: white;
+    color: black;
+    padding: 10px, 10, 10, 10;
+}
+
+.aside { 
+    background-color: white;
+    color: black;
+    width: 495px;
+}
+}
+/* section {
+    box-align: center;
+    margin-top: 20px;
+    margin-right: 10px;
+    background-color: white;
+    color: black;
+    width: 50%;
+    padding-bottom: 10px;
+    float: left;
+}
+
+.article {
+    color: white;
+    background: gray;
+    width: 400px;
+    height: 300px;
+    padding-top: 30px;
+    margin-left: 10px;
+    margin-right: 10px;
+    float: left;
+}
+.headings {
+    color: black;
+    background: white;
+    padding: 10px, 10, 10, 10;
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+.p { 
+    color: black;
+    background: white;
+    padding: 10px, 10, 10, 10,;
+    margin-bottom: 5px;
+}
+.right {
+    background: white
+}
+.aside { 
+    color: black
+}
+/* footer { 
+    background: white;
+    color: black;
+    margin-bottom: 10px;
+    height: 70px;
+    padding: 20px;
+}
+ */ */
