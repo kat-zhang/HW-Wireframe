@@ -5,12 +5,13 @@
 }
 
 body {
+    border-left: solid 232.5px #777;
+    border-right: solid 232.5px #777;
     background-color: #777;
     font-family: 'Arial', 'Helvetica Neue', 'Helvetica', sans-serif;
     font-size: 18px;
-    margin-left: auto;
     margin-right: auto;
-    box-align: center;
+    margin-left: auto;
     width: 960px;
 }
 
@@ -20,7 +21,10 @@ header {
     height: 70px;
     width: 495px;
     margin-top: 10px;
+    margin-right: auto;
     margin-bottom: 10px; 
+    margin-left: auto;
+   
 }
 
 nav {
@@ -28,6 +32,8 @@ nav {
     color: #777;
     height: 70px;
     width: 495px;
+    margin-left: auto;
+    margin-right: auto;
     margin-bottom: 10px;
 }
 
@@ -35,6 +41,8 @@ section {
     width: 300px;
     background-color: #ebebeb;
     color: #777;
+    margin-right: auto;
+    margin-left: auto;
     padding-top: 29px;
     padding-right:10px;
     padding-bottom: 12px;
@@ -85,5 +93,7 @@ footer {
     height: 70px;
     width: 495px;
     margin-top: 10px;
-    margin-bottom: 10px; 
+    margin-right: auto;
+    margin-bottom: 10px;
+    margin-left: auto; 
 }
