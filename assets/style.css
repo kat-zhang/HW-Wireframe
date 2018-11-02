@@ -3,70 +3,82 @@
     text-align: center;
     padding-left: 50px;
     padding-right: 50px;
-    padding-top: 10px;
+    /* padding-top: 10px; */
   }
 
 body {
     background-color: #777;
-    margin-left: 50px;
-    margin-right: 50px;
+    font-family: 'Arial', 'Helvetica Neue', 'Helvetica', sans-serif;
+    font-size: 18px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 960px;
 }
 
-div { 
+/* div { 
     padding: 20px;
-}
+} */
 
 header {
-    background: white;
-    color:black;
+    background: #ebebeb;
+    color: #777;
     margin-bottom: 10px;
     height: 70px;
-    width: 960px;
-    padding: 20px;
 }
+
  /* div {
      background-color: white;
      color:  black;
  } */
+
 .nav {
-    background-color: white;
-    color: black;
+    background-color:#ebebeb;
+    color:#777;
     height: 70px;
-    width: 960px;
     margin-bottom: 10px;
 }
 
 section {
-    width: 495px;
-    color: black;
-    background-color: white;
-    padding: 10px, 10, 10, 10;
-    margin-bottom: 10px;
-    float: left;
+    width: 50%;
+    color:#777;
+    background-color: #ebebeb;
+    /* padding: 10px, 10, 10, 10 */
 }
-.article {
-    color: white;
-    background-color: gray;
-    margin: 10px, 10, 10, 10;
+.artc {
+    position: relative;
+    color: #ebebeb;
+    background-color:#777;
+    
 }
-.heads {
-    background-color: white;
-    color: black;
-    padding: 10px, 10, 10, 10;
-    margin-bottom: 10px;
+.hds {
+    background-color: #ebebeb;
+    color: #777;
+    padding: 10px, 10, 10, 10
+    margin-bottom: 10px
 }
-.p { 
-    background-color: white;
-    color: black;
-    padding: 10px, 10, 10, 10;
+.par {
+    background-color:#ebebeb;
+    color:#777;
+    padding: 10px, 10, 10, 10
 }
 
 .aside { 
-    background-color: white;
-    color: black;
-    width: 495px;
+    float: right;
+    background-color: #ebebeb;
+    color: #777;
+    width: 50%;
+} 
+
+footer { 
+    background: #ebebeb;
+    color: #777;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    height: 70px;
 }
-}
+
+
+
 /* section {
     box-align: center;
     margin-top: 20px;
@@ -101,17 +113,5 @@ section {
     padding: 10px, 10, 10, 10,;
     margin-bottom: 5px;
 }
-.right {
-    background: white
-}
-.aside { 
-    color: black
-}
-/* footer { 
-    background: white;
-    color: black;
-    margin-bottom: 10px;
-    height: 70px;
-    padding: 20px;
-}
- */ */
+
+
