@@ -3,8 +3,7 @@
     text-align: center;
     padding-left: 50px;
     padding-right: 50px;
-    /* padding-top: 10px; */
-  }
+}
 
 body {
     background-color: #777;
@@ -15,103 +14,60 @@ body {
     width: 960px;
 }
 
-/* div { 
-    padding: 20px;
-} */
-
 header {
-    background: #ebebeb;
+    background-color:#ebebeb;
     color: #777;
-    margin-bottom: 10px;
     height: 70px;
+    margin-top: 10px;
+    margin-bottom: 10px; 
 }
 
- /* div {
-     background-color: white;
-     color:  black;
- } */
-
-.nav {
-    background-color:#ebebeb;
-    color:#777;
+nav {
+    background-color: #ebebeb;
+    color: #777;
     height: 70px;
     margin-bottom: 10px;
 }
 
 section {
     width: 50%;
-    color:#777;
     background-color: #ebebeb;
-    /* padding: 10px, 10, 10, 10 */
+    color: #777;
+    padding-bottom: 16px;
 }
-.artc {
+
+article {
     position: relative;
+    background-color: #777;
     color: #ebebeb;
-    background-color:#777;
-    
-}
-.hds {
-    background-color: #ebebeb;
-    color: #777;
-    padding: 10px, 10, 10, 10
-    margin-bottom: 10px
-}
-.par {
-    background-color:#ebebeb;
-    color:#777;
-    padding: 10px, 10, 10, 10
+    padding-bottom: 2px;
 }
 
-.aside { 
-    float: right;
+h1 {
     background-color: #ebebeb;
     color: #777;
-    width: 50%;
-} 
+    /* padding: 10px, 10, 10, 10
+    margin-bottom: 10px */
+}
 
-footer { 
-    background: #ebebeb;
+p {
+    background-color: #ebebeb;
     color: #777;
-    margin-bottom: 10px;
+    /* padding: 10px, 10, 10, 10;
     margin-top: 10px;
-    height: 70px;
+    margin-bottom: 10px; */ 
 }
-
-
-
-/* section {
-    box-align: center;
-    margin-top: 20px;
-    margin-right: 10px;
-    background-color: white;
-    color: black;
+aside {
+    background-color: #ebebeb;
+    color: #777;
     width: 50%;
-    padding-bottom: 10px;
-    float: left;
+    margin-left: auto;
 }
-
-.article {
-    color: white;
-    background: gray;
-    width: 400px;
-    height: 300px;
-    padding-top: 30px;
-    margin-left: 10px;
-    margin-right: 10px;
-    float: left;
+footer {
+    background-color: #ebebeb;
+    color: #777;
+    position: relative;
+    height: 70px;
+    margin-top: 10px;
+    margin-bottom: 10px; 
 }
-.headings {
-    color: black;
-    background: white;
-    padding: 10px, 10, 10, 10;
-    margin-bottom: 5px;
-    margin-top: 5px;
-}
-.p { 
-    color: black;
-    background: white;
-    padding: 10px, 10, 10, 10,;
-    margin-bottom: 5px;
-}
-
-
